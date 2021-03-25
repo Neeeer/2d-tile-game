@@ -1,0 +1,42 @@
+128 20 32 32
+// The first line should contain the width and height of the
+// map and the width and height of each tile. A list of character to
+// tile mappings is then provided where each character is preceded by a
+// # character. The dot character always defaults to a blank space 
+// Note that the referenced files should be in the same directory as the
+// tile map.
+#l=leftG.png
+#r=rightG.png
+#m=middleG.png
+#g=ground.png
+#s=stone.png
+#p=spike.png
+#d=door.png
+#k=fireballtileL.png
+#h=fireballtileD.png
+#j=fireballtileR.png
+// The actual tile map is preceded by the #map line
+#map
+gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+g..............................g...............................................................................................g
+g..............................g...............................................................................................g
+g......g.......................gmmmmmmmmr.................................................................................lmmmmg
+g....lmg................................gmmr.....p..........................................................lmr.......lr.......g
+g.................lmr......................gmr...m...........p..............................sssssssssssss.........lr...........g
+g........................lmr.....................g..lmmmmmr..g..lmmmr...........lmmr...lmr...sssssssssss.......................g
+g..........lmr.................lmmr..............g...........g......g.....lmr...................h...h..........................d
+g...................................................................g..........................................................d
+gmmmmr....................................................................................................................ssssss
+ggggggmmr...........p................ssss.............................................................................ssssgggggg
+g......ggmmmmmmmmmmmmmmmmr............ss..............................lr..........................................ssssgggggggggg
+g........................gmr..........ss....lr........................gg............lr..lr....................ssssgggggggggggggg
+gmr........................gmr........gg................................................kgmm..lr..m..lr..lmmmmgggggggggggggggggg
+g............................gmr......ggr.........lmmr........lmr....lmmr......lmr......gggg.............ggggggggggggggggggggggg
+g....lr........................gmr....gg................................................kggg.............ggggggggggggggggggggggg
+g............lmr......lmr.............gg....lmr..........lr................lr...........ggggpppppppppppppggggggggggggggggggggggg
+g..........lmgggmr....................gg................................................kggggggggggggggggggggggggggggggggggggggg
+g........lmgggggggmr..................gg........pp...........pp.................pp......gggggggggggggggggggggggggggggggggggggggg
+gmmmmmmmmgggggggggggmmmmmmmmmmmmmmmmmmggmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmgggggggggggggggggggggggggggggggggggggggg
+
+
+
